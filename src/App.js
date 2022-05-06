@@ -109,9 +109,9 @@ function App() {
                     <Popover id={`popover-positioned-${placement}`}>
                       <Popover.Header as="h3">Working at this</Popover.Header>
                       <Popover.Body>
-                        Working in my own web. The idea its make a 3D enviroment
-                        using three.js in react and three-fiber ecosystem to
-                        show my portfolio
+                        Working on my website. The idea is to make a 3D
+                        environment using three.js with react and the
+                        three-fiber ecosystem to show my portfolio
                       </Popover.Body>
                       <Popover.Body>
                         My next step is learn how can i put physics in this
