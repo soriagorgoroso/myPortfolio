@@ -181,7 +181,12 @@ function App() {
       </Navbar>
       <Canvas className="canvas">
         {/* <ambientLight /> */}
-        <OrbitControls enableRotate={false} enableZoom={false} />
+        <OrbitControls
+          enableRotate={false}
+          enableZoom={false}
+          enableDamping={false}
+          enablePan={false}
+        />
         <Camera />
         <GroundPlane />
         <BackDrop />
