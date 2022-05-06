@@ -145,7 +145,7 @@ function App() {
                     setLight(!light);
                   }}
                 >
-                  LIGHT OF
+                  LIGHT OFF
                 </Button>
               )}
             </Col>
