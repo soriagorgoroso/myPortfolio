@@ -59,7 +59,7 @@ function App() {
 
   return (
     <>
-      <Navbar bg="dark">
+      <Navbar bg="dark" className="m-0 p-0">
         <Container>
           <Navbar.Brand className="text-light">
             {["bottom"].map((placement) => (
@@ -117,8 +117,9 @@ function App() {
                   </Popover>
                 }
               >
-                <Button className="text-light" variant="black">
+                <Button className="text-light p-0" variant="black">
                   Sebastian Soria
+                  <h6 className="p-0 ">Click Me</h6>
                 </Button>
               </OverlayTrigger>
             ))}
@@ -146,7 +147,7 @@ function App() {
                     </Popover>
                   }
                 >
-                  <Button className="popOver" variant="outline-secondary">
+                  <Button className="popOver m-0" variant="outline-secondary">
                     About
                   </Button>
                 </OverlayTrigger>
@@ -155,7 +156,7 @@ function App() {
             <Col className="">
               {!light ? (
                 <Button
-                  className="buttonLight"
+                  className="buttonLight p-0 m-0"
                   onClick={() => {
                     setLight(!light);
                   }}
@@ -165,7 +166,7 @@ function App() {
                 </Button>
               ) : (
                 <Button
-                  className="buttonLight"
+                  className="buttonLight p-0 m-0"
                   variant="dark"
                   onClick={() => {
                     setLight(!light);
