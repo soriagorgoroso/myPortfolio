@@ -71,48 +71,49 @@ function App() {
                   <Popover id={`popover-positioned-${placement}`}>
                     <Popover.Header as="h3">My Media</Popover.Header>
                     <Popover.Body>
-                      <Nav className="">
-                        <Row>
-                          <Col>
-                            <Nav.Link
-                              className=""
-                              href="https://www.linkedin.com/soriagorgoroso"
-                            >
-                              {" "}
-                              <i className="fa-brands fa-linkedin text-dark"></i>
-                            </Nav.Link>
-                            <Nav.Link
-                              className=""
-                              href="https://www.github.com/soriagorgoroso"
-                            >
-                              {" "}
-                              <i className="fa-brands fa-github text-dark"></i>
-                            </Nav.Link>
-                            <Nav.Link
-                              className=""
-                              href="https://bit.ly/3vqfGTa"
-                            >
-                              {" "}
-                              <i className="fa-regular fa-file text-dark "></i>{" "}
-                            </Nav.Link>
-                            <Nav.Link
-                              className=""
-                              disabled
-                              href="https://bit.ly/3vqfGTa"
-                            >
-                              {" "}
-                              <i className="fa-brands fa-whatsapp text-dark"></i>
-                            </Nav.Link>
-                          </Col>
-                          <Col>
-                            <Nav.Link active={false}>
-                              <p className="text-dark m-0 text-pop-up-top celphone">
-                                +59899807176
-                              </p>{" "}
-                            </Nav.Link>
-                          </Col>
-                        </Row>
-                      </Nav>
+                      <Row>
+                        <Col>
+                          <Nav.Link
+                            className=""
+                            href="https://www.linkedin.com/soriagorgoroso"
+                          >
+                            {" "}
+                            <i className="fa-brands fa-linkedin text-dark"></i>
+                          </Nav.Link>
+                        </Col>
+                        <Col>
+                          <Nav.Link
+                            className=""
+                            href="https://www.github.com/soriagorgoroso"
+                          >
+                            {" "}
+                            <i className="fa-brands fa-github text-dark"></i>
+                          </Nav.Link>
+                        </Col>
+                        <Col>
+                          <Nav.Link className="" href="https://bit.ly/3vqfGTa">
+                            {" "}
+                            <i className="fa-regular fa-file text-dark "></i>{" "}
+                          </Nav.Link>
+                        </Col>
+                        <Col>
+                          <Nav.Link
+                            className=""
+                            disabled
+                            href="https://bit.ly/3vqfGTa"
+                          >
+                            {" "}
+                            <i className="fa-brands fa-whatsapp text-dark"></i>
+                          </Nav.Link>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Nav.Link active={false}>
+                          <p className="text-dark m-0 text-pop-up-top celphone ">
+                            +59899807176
+                          </p>{" "}
+                        </Nav.Link>
+                      </Row>
                     </Popover.Body>
                   </Popover>
                 }
@@ -156,7 +157,7 @@ function App() {
             <Col className="">
               {!light ? (
                 <Button
-                  className="buttonLight p-0 m-0"
+                  className="buttonLight p-0 mt-2"
                   onClick={() => {
                     setLight(!light);
                   }}
