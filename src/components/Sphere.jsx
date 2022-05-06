@@ -2,7 +2,7 @@ import React from "react";
 
 function Sphere() {
   return (
-    <mesh position={[0, 0, 0]} rotation={[0, 0, 0]}>
+    <mesh position={[-0.3, 1, -4]} rotation={[0, 0, 0]}>
       <sphereGeometry attach="geometry" args={[1, 16, 16]} />
       <meshStandardMaterial
         attach="material"
