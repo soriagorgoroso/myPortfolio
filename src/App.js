@@ -96,16 +96,6 @@ function App() {
                             <i className="fa-regular fa-file text-dark "></i>{" "}
                           </Nav.Link>
                         </Col>
-                        <Col>
-                          <Nav.Link
-                            className=""
-                            disabled
-                            href="https://bit.ly/3vqfGTa"
-                          >
-                            {" "}
-                            <i className="fa-brands fa-whatsapp text-dark"></i>
-                          </Nav.Link>
-                        </Col>
                       </Row>
                       <Row>
                         <Nav.Link active={false}>
