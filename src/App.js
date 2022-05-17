@@ -97,13 +97,6 @@ function App() {
                           </Nav.Link>
                         </Col>
                       </Row>
-                      <Row>
-                        <Nav.Link active={false}>
-                          <p className="text-dark m-0 text-pop-up-top celphone ">
-                            +59899807176
-                          </p>{" "}
-                        </Nav.Link>
-                      </Row>
                     </Popover.Body>
                   </Popover>
                 }
